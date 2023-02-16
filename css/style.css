@@ -1,0 +1,141 @@
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/SnellRoundhand.ttc);
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+   }
+
+body{
+    margin: 0px;
+    height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+.logo{
+    font-family: myFont;
+}
+main, h1{
+    color:#000000;
+}
+/*common*/
+h1{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+/*header*/
+header{
+position: sticky;
+}
+.menu-conteiner{
+    position: sticky;
+    border: bottom 15px; color: #bbbbbb;
+}
+.menu-conteiner a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.menu-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 32px;
+}
+
+.menu-nav-bar{
+    padding: 40px;
+}
+
+.menu-icons:hover{
+    color: #808080;
+}
+.h1-home{
+    font-size: 72px;
+    text-align: center;
+}
+.h1-about{
+    font-size: 72px;
+    text-align: center;
+}
+.h1-donate{
+    font-size: 72px;
+    text-align: center;
+}
+.h1-contact{
+    font-size: 72px;
+    text-align: center;
+}
+
+.h2-donate{
+    font-size: 62px;
+    text-align: center;
+}
+/*home page*/
+.home-img{
+    height:66rem;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin: left 30px; right: 30px;
+    text-align: justify;
+}
+.about-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin: left 30px; right: 30px;
+    text-align: justify;
+}
+
+.ps{
+    width: 57%;
+    font-size: 22px;
+
+}
+/*contact page*/
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .list-item {
+    line-height: 4;
+    color: #aaa;
+  }
+  
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #000000;
+  }
+  
+  .contact-text a {
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #bbbbbb;
+    text-decoration: none;
+  }
